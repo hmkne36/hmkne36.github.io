@@ -1,0 +1,77 @@
+#layout-wrapper{overflow: hidden;}
+.atEQPOIVFSDFSDG-voucher-main{overflow: hidden; background: #fefefe;}
+
+.atEQPOIVFSDFSDG-first-block, .atEQPOIVFSDFSDG-second-block{
+    /*box-shadow: 10px -10px 15px -5px rgb(61 63 64 / 10%);*/
+	box-shadow: 5px -1px 10px 1px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    border: 1px solid #f2f2f2;
+  }
+.atEQPOIVFSDFSDG-search-title{display: none;}
+.atEQPOIVFSDFSDG-at-filters:nth-child(1){color:red}
+.atEQPOIVFSDFSDG-filter-sort{
+	cursor: pointer;
+}
+.atEQPOIVFSDFSDG-voucher-main {
+    padding: 0;
+}
+.atEQPOIVFSDFSDG-btn-search {
+    border: none;
+}
+.atEQPOIVFSDFSDG-input-search {
+	border: 1.5px #ffc4c4;
+}
+
+.atEQPOIVFSDFSDG-details-description p, .atEQPOIVFSDFSDG-code-coupon{
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    pointer-events: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+@media screen and (max-width:640px){
+  .atEQPOIVFSDFSDG-at-modal-content {
+    margin: auto;
+  }
+}
+
+  .atEQPOIVFSDFSDG-coupon-grid{
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(245, 245, 245);
+    border: 1px solid rgb(245, 245, 245);
+    transition: box-shadow ease-in-out .0.75s;
+	  max-width: 100%;
+  }
+  .atEQPOIVFSDFSDG-coupon-grid:hover {
+    box-shadow: 0px 4px 4px 0px rgb(33 33 33 / 20%);
+    transform: scale(1.0005);
+    border: 1px solid #ff6800;
+}
+.darkMode .mainContent, 
+.darkMode .atEQPOIVFSDFSDG-container, 
+.darkMode .sectionInner, 
+.darkMode .atEQPOIVFSDFSDG-voucher-main, 
+.darkMode .atEQPOIVFSDFSDG-search, 
+.darkMode .atEQPOIVFSDFSDG-input-search, 
+.darkMode .atEQPOIVFSDFSDG-filter-keyword, 
+.darkMode .atEQPOIVFSDFSDG-title-tabs, 
+.darkMode .atEQPOIVFSDFSDG-filters-and-delete-search, 
+.darkMode .atEQPOIVFSDFSDG-voucher-dealcoupon, 
+.darkMode .atEQPOIVFSDFSDG-coupon-grid, 
+.darkMode .atEQPOIVFSDFSDG-at-modal-content, 
+.darkMode .atEQPOIVFSDFSDG-delete-search {
+	background: #1e1e1e!important;
+}
+.darkMode .dealpromo-item-cta, 
+.darkMode .atEQPOIVFSDFSDG-remain .atEQPOIVFSDFSDG-item-timer, 
+.darkMode .atEQPOIVFSDFSDG-loading span, 
+.darkMode .atEQPOIVFSDFSDG-details-description p,
+.darkMode .atEQPOIVFSDFSDG-item-loading-desk {
+	color: #ffffff!important;
+}
+.darkMode .atEQPOIVFSDFSDG-at-modal-content {background: #1e1e1e;}
