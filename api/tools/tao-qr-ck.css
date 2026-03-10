@@ -1,0 +1,87 @@
+.qrtool {
+    font-family: Poppins, sans-serif;
+    max-width: 430px;
+    margin: auto;
+    padding: 25px
+}
+
+.qr-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 14px
+}
+
+.bank-list {
+    max-height: 220px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.bank {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.bank:hover {
+    background: #f5f5f5
+}
+
+.bank img {
+    width: 26px
+}
+
+.bank.active {
+    background: #eef3ff;
+    font-weight: 500;
+}
+
+.btn {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 8px;
+    background: #2d5bff;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 8px
+}
+
+.qrbox {
+    text-align: center;
+    margin-top: 20px
+}
+
+.qrbox img {
+    width: 230px
+}
+
+.tools {
+    margin-top: 10px;
+    display: none;
+    gap: 10px;
+    justify-content: center
+}
+
+.tool-btn {
+    background: #10b981;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px
+}
