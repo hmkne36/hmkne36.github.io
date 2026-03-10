@@ -62,24 +62,3 @@ object-fit:contain;
 display:block;
 border-radius:4px;
 }
-
-.container{
-  margin-top:-30px;
-  
-}
-  
-.post-title{
-margin-bottom:5px;
-}
-
-.update-date{
-  font-size:14px;
-  color:#777;
-  margin-bottom:10px;
-}
-
-.donate-link{
-  font-size:14px;
-  color:#777;
-  margin-bottom:5px;
-}
